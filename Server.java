@@ -15,6 +15,8 @@ public class Server {
 		Formatter out= new Formatter(socket.getOutputStream());
 		Scanner systemIn= new Scanner(System.in);
 		String next;
+		
+		// continuous
 		do{
 			String received= Input.nextLine();
 			System.out.println("received from client: "+received);
